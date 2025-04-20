@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.13">
   <diagram name="用户交互流程" id="Oo8SjVRXIeCE_idvQn2g">
-    <mxGraphModel dx="1942" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1115" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,8 +157,8 @@
         </mxCell>
         <mxCell id="EHSvnzg41kGsp4ja_c1O-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-210" y="410" as="sourcePoint" />
-            <mxPoint x="-270" y="410" as="targetPoint" />
+            <mxPoint x="400" y="419.5" as="sourcePoint" />
+            <mxPoint x="340" y="419.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EHSvnzg41kGsp4ja_c1O-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EHSvnzg41kGsp4ja_c1O-18" target="EHSvnzg41kGsp4ja_c1O-19">
