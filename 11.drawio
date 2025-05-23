@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.15">
-  <diagram name="第 1 页" id="vYNz014t9PhY_NK5zvTc">
-    <mxGraphModel>
+  <diagram name="技术栈展示" id="vYNz014t9PhY_NK5zvTc">
+    <mxGraphModel dx="1113" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2S3N9inFxtruUm5ocbxZ-50" value="技术栈" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6c8ebf;fontColor=#ffffff;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2S3N9inFxtruUm5ocbxZ-51" value="文本嵌入&lt;br&gt;Hugging Face Transformers&lt;br&gt;模型：bert-base-chinese" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2S3N9inFxtruUm5ocbxZ-52" value="向量检索&lt;br&gt;&lt;div&gt;Faiss引擎 + 余弦相似度搜索&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="500" y="130" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2S3N9inFxtruUm5ocbxZ-53" value="用户画像&lt;br&gt;SentenceTransformer&lt;br&gt;（CLS池化）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2S3N9inFxtruUm5ocbxZ-54" value="检索增强生成&lt;br&gt;Deepseek API（RAG）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2S3N9inFxtruUm5ocbxZ-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2S3N9inFxtruUm5ocbxZ-51" target="2S3N9inFxtruUm5ocbxZ-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2S3N9inFxtruUm5ocbxZ-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2S3N9inFxtruUm5ocbxZ-51" target="2S3N9inFxtruUm5ocbxZ-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2S3N9inFxtruUm5ocbxZ-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2S3N9inFxtruUm5ocbxZ-52" target="2S3N9inFxtruUm5ocbxZ-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2S3N9inFxtruUm5ocbxZ-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2S3N9inFxtruUm5ocbxZ-53" target="2S3N9inFxtruUm5ocbxZ-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
